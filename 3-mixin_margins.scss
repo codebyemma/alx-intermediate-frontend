@@ -1,0 +1,11 @@
+@mixin pixel($px) {
+    margin: $px;
+    padding: $px;
+}
+
+body {
+    @include pixel(10px);
+}
+div {
+    @include pixel(15px);
+}
